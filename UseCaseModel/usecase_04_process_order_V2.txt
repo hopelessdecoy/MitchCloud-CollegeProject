@@ -1,0 +1,34 @@
+System Name: MitchCloud
+Artifact Name: usecase_04_process_order.txt
+Create Date: Oct 4, 2017
+Author: Paul Birkholtz
+Version: 2.0
+
+Use Case: System administrator keeping the system up and running
+--------------------------------------------------
+CHARACTERISTIC INFORMATION
+Goal in Context: To allow System administrators to easily perform mainanence and fixes to the overall system
+Scope: System administrator system interaction
+Level: Primary task
+Preconditions: User is an employee and has access to all backend systems
+Success End Condition: Backend systems remain operational
+Failed End Condition: System goes down
+Primary Actor: System administrator
+Trigger: System failure occurence or optimization required
+----------------------------------------
+MAIN SUCCESS SCENARIO
+1. System admin is notified of system failure
+2. admin analyses and finds fault
+3. admin applies fix or patch
+----------------------
+RELATED INFORMATION (optional)
+Priority: Top priority
+Performance Target: Completed system interaction
+Frequency: Daily or per occurence
+Subordinate Use Cases: N/A
+Channel to primary actor:  Backend system, System admin UI
+Secondary Actors: NONE
+Channel to Secondary Actors: N/A
+----------------------------
+SCHEDULE
+Due Date: Version 1.0 release

@@ -1,0 +1,21 @@
+System Name: MitchCloud
+Artifact Name: actors_and_goals_table.txt
+Create Date: Oct 4, 2017
+Author: Paul Birkholtz
+Version: 1.1
+
+
+ managers goals-> Run, maintain and manager a profitable store location.
+ Supporting actors: system administrators, sale analysts, ice cream servers, customers
+
+ system administrators goals-> To maintain the system and fix errors or failures when they occur.
+ Supporting actors: NONE
+
+ sale analysts goals-> To analyze, summerize and report patterns in data produced by the sales system.
+ Supporting actors: NONE
+
+ ice cream servers goals-> To process and serve customer orders using store products and the cashier interface.
+ Supporting actors: customers
+
+ customers goals-> To be able to purchase and recieve customized and safe orders from the mobile app and physical store location.
+ Supporting actors: ice cream servers, managers

@@ -1,0 +1,40 @@
+System Name: MitchCloud
+Artifact Name: vision.txt
+Create Date: Oct 4, 2017
+Author: Paul Birkholtz
+Version: 1.1
+
+Mitchell's Homemade Ice Cream Cloud-Based Manager (MitchCloud)
+An infrastructure cloud based system that will run as a service and help unify, simplify, and streamline the shopping and checking out process, it would also be using a centralized data based system for user data, including sales and inventory. 
+
+Stake-Holders:
+ managers- The people who work middle management above ice cream servers and possibly also store owners. Needing access to things like transaction logs, financial, inventory, sales and ordering information.
+
+ system administrators- a person who manages the operation of a computer systems, such as a message boards and back-end software.
+
+ sale analysts- sales analyst is tasked with a variety of efforts relating to increasing overall sales. This primarily involves analyzing past sales data and market trends, and then using those analyses to produce sales forecasts and strategies. 
+
+ ice cream servers- The front line workers who directly interact with the customer and the front end of the app. They do not need access to any of the data layers of the app, only how to work the user UI.
+
+ customers- The main users of the front end UI and the ones who matter most in the applications functionality. They do not need access to any of the data layers of the app, only how to work the user UI.
+
+Features:
+Having the full array of menu items available at Mitchell's Homemade Ice Cream along with specialties and filtering options.
+
+Product information and other related information
+
+Customization of ordering of products provided at any point in the process
+
+Accepts 3 payment forms, cash credit and phone pay
+
+Can detect payment errors and offer alternatives
+
+Keeps logs of all interactions for analysis
+
+POS and kiosk specifically can be used offline
+
+Tracks goods and products required and ordered by Mitchell's Homemade Ice Cream
+
+Ability to change rules on pricing and specials
+
+Real time transactions with third party systems using inventory management, a data access layer, a database sync framework, chatting manager, tax calculator, delivery operation manager, HTTP Request Handler, and payment authorization service. 

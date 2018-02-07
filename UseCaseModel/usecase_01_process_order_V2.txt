@@ -1,0 +1,34 @@
+System Name: MitchCloud
+Artifact Name: usecase_01_process_order.txt
+Create Date: Oct 27, 2017
+Author: Paul Birkholtz
+Version: 2.0
+
+Use Case: Customer Purchase
+--------------------------------------------------
+CHARACTERISTIC INFORMATION
+Goal in Context: To allow customers to easily purchase customized product
+Scope: POS system.
+Level: Primary task
+Preconditions: User has applicable device and user is near a store
+Success End Condition: Satisfied customer and successful payment
+Failed End Condition: Customer doesn't order product or cannot pay
+Primary Actor: Customer
+Trigger: The need to order ice cream product
+----------------------------------------
+MAIN SUCCESS SCENARIO
+1. Customer begins purchase by choosing a physical or digital POS
+2. Customer selects dietary restrictions and order customizations
+3. Customer waits for and recieves order at a physical location or by delivery (if available)
+----------------------
+RELATED INFORMATION (optional)
+Priority: Top priority.
+Performance Target: Customer Satisfied
+Frequency: As often as supplies last
+Subordinate Use Cases: Backend updates other stakeholders
+Channel to primary actor: Backend system, internet, POS device
+Secondary Actors: Ice Cream Servers
+Channel to Secondary Actors: Backend system, internet, Cashier UI
+----------------------------
+SCHEDULE
+Due Date: Version 1.0 release

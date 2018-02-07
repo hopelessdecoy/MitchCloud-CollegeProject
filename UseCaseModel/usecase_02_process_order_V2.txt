@@ -1,0 +1,35 @@
+System Name: MitchCloud
+Artifact Name: usecase_02_process_order.txt
+Create Date: Oct 27, 2017
+Author: Paul Birkholtz
+Version: 2.0
+
+Use Case: Ice Cream Servers system interaction during purchase
+--------------------------------------------------
+CHARACTERISTIC INFORMATION
+Goal in Context: To allow Ice Cream Servers to easily sell customized product
+Scope: employee system interaction
+Level: Primary task
+Preconditions: User is an employee and has a customer
+Success End Condition: Completed system interaction
+Failed End Condition: Customer doesn't recieve product
+Primary Actor: Ice Cream Server
+Trigger: Customer places an order
+----------------------------------------
+MAIN SUCCESS SCENARIO
+1. Customer orders
+2. Server processes order
+3. Server accepts payment method if needed
+4. Server serves requested product
+----------------------
+RELATED INFORMATION (optional)
+Priority: Top priority.
+Performance Target: Completed system interaction
+Frequency: As often as supplies last
+Subordinate Use Cases: Backend updates other stakeholders
+Channel to primary actor:  Backend system, internet, Cashier UI
+Secondary Actors: Customer
+Channel to Secondary Actors: Backend system, internet, POS device
+----------------------------
+SCHEDULE
+Due Date: Version 1.0 release

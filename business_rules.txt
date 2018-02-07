@@ -1,0 +1,18 @@
+System Name: MitchCloud
+Artifact Name: bussiness_rules.txt
+Create Date: Oct 4, 2017
+Author: Paul Birkholtz
+Version: 1.1
+
+-All users must be authenticated to access the system.
+
+-Company employees are restricted to thier access points in the system.
+
+-Only system admins and managers can make changes to the system manually.
+
+-System logging must always be active for all interactions.
+
+-Cash, credit, and phone pay are the only acceptable payment methods.
+
+-System rules can only be changed for fixed seasonal discounts, card holders’ discounts, membership discounts
+and only a manager can edit and add new rules at any point during off hours.

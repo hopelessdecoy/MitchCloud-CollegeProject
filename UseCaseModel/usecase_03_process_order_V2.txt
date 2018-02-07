@@ -1,0 +1,34 @@
+System Name: MitchCloud
+Artifact Name: usecase_03_process_order.txt
+Create Date: Oct 27, 2017
+Author: Paul Birkholtz
+Version: 2.0
+
+Use Case: Sales analysts interacting with sales data
+--------------------------------------------------
+CHARACTERISTIC INFORMATION
+Goal in Context: To allow Sales analysts to easily formulate and visualize patterns in sales data
+Scope: Sales analyst system interaction
+Level: Primary task
+Preconditions: User is an employee and has access to sales data
+Success End Condition: Visualized and analized information
+Failed End Condition: Data contains no pattern or is unreachable
+Primary Actor: Sales analyst
+Trigger: Sales analyst querries data
+----------------------------------------
+MAIN SUCCESS SCENARIO
+1. analyst queries data
+2. Data visualizes
+3. Analyst processes and analyses data into a report
+----------------------
+RELATED INFORMATION (optional)
+Priority: Top priority
+Performance Target: Completed system interaction
+Frequency: Daily
+Subordinate Use Cases: Backend updates other stakeholders
+Channel to primary actor:  Backend system, internet, data readout
+Secondary Actors: NONE
+Channel to Secondary Actors: N/A
+----------------------------
+SCHEDULE
+Due Date: Version 1.0 release

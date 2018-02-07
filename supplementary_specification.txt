@@ -1,0 +1,24 @@
+System Name: MitchCloud
+Artifact Name: Supplementary_Specification.txt
+Create Date: Oct 4, 2017
+Author: Paul Birkholtz
+Version: 1.0
+
+Usability
+Has interfaces for multiple use cases front and back end with real-time transactions with third party systems.
+
+
+Reliability
+The system has multiple points where people interact with the system and has many forms of data 
+collection and logging, keeping the system up and running and catching errors is made easy.
+
+Availability
+Multiple available hardware/software platforms, access over the internet including Kiosks which can be used even 
+offline.
+
+Supportability
+Connection with databases, logging tools and real-time transactions with 3rd party systems.
+
+Design Constraints
+All systems must serve their purpose for the appropriate user while segragating other systems and thier data
+from users who should not have access to them.
